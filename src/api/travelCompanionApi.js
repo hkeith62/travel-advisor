@@ -18,7 +18,7 @@ import axios from 'axios';
             },
             /* Google maps API */
             headers: {
-              'X-RapidAPI-Key':'AIzaSyAYfUVE_bTJMmswuKOmACdNgbSYVFprxbY',
+              'X-RapidAPI-Key':'692a66377dmsh86d28b071e20563p1c9d2djsn7d5097b67e32',
               'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com',
             }
           });
