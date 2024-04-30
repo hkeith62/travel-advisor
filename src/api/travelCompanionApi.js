@@ -34,7 +34,7 @@ import axios from 'axios';
         if (lat && lng) {
           const { data } = await axios.get('https://open-weather-map27.p.rapidapi.com/weather', {
             headers: {
-              'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_WEATHER_API_KEY, 
+              'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_TRAVEL_API_KEY, 
               'X-RapidAPI-Host': 'open-weather-map27.p.rapidapi.com',
             }
           });
