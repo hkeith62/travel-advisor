@@ -2,7 +2,7 @@
     Title: Google maps API
     Author: Keith Hall
     Date: 04/30/2023
-    Description: Stylesheet markup for header.
+    Description: Stylesheet markup for map.
 */
 import { makeStyles } from '@material-ui/core/styles';
 
