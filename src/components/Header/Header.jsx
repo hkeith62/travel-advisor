@@ -1,3 +1,9 @@
+/**
+    Title: Google maps API
+    Author: Keith Hall
+    Date: 05/30/2021
+    Description: Google maps API for portfolio website.
+*/
 import React, { useState } from 'react';
 import { Autocomplete } from '@react-google-maps/api';
 import { AppBar, Toolbar, Typography, InputBase, Box } from '@material-ui/core';
@@ -17,7 +23,7 @@ const Header = ({ setCoordinates }) => {
 
     setCoordinates({lat, lng});
   }
-
+/* Sidebar */
   return (
     <AppBar position="static">
       <Toolbar className={classes.toolbar}>

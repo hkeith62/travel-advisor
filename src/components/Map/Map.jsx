@@ -1,4 +1,9 @@
-
+/**
+    Title: Map.jsx
+    Author: Keith Hall
+    Date: 04/30/2023
+    Description: Map component for travel advisor.
+*/
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import { Paper, Typography, useMediaQuery } from '@material-ui/core';

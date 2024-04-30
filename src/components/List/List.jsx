@@ -1,3 +1,9 @@
+/**
+    Title: List.jsx
+    Author: Keith Hall
+    Date: 04/30/2023
+    Description: JS list component for restaurants, hotels.
+*/
 import React, { useState, useEffect, createRef } from 'react';
 import { CircularProgress, Grid, Typography, InputLabel, MenuItem, FormControl, Select } from '@material-ui/core';
 
